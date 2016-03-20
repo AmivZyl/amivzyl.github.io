@@ -33,6 +33,10 @@ h3, h4
 	font-weight: 700;
 	color: #3A506B; 
 }
+h4
+{
+	font-size: 120%;
+}
 h5 
 {
 	font-size: 90%;
