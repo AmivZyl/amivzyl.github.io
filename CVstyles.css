@@ -1,13 +1,10 @@
-body, article, header
-{
+
 	/*background-color:white;*/
 	/*background-image:url("FFTA2-Logo.jpg");*/
 	/*background-repeat:no-repeat;*/
 	/*background-attachment:fixed;*/
 	/*color:black;
 	font-family:Arial,Helvetica,sans-serif;*/
-}
-
 body
 {
 	margin: 0;
@@ -16,7 +13,22 @@ body
 	color: #1C2541;
 	padding-left: 165px; 
 	padding-right: 165px;
-
+}
+/*@media (max-width: 600px) {
+	body{
+		padding: 0;
+	}
+}
+.container 
+{ 
+	margin: 0 auto 0 auto;
+	width: 600px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 0; 
+    width: 100%;
+  }*/
 }
 h1
 {
@@ -36,10 +48,11 @@ h3, h4
 h3
 {
 	font-size: 120%;
+	text-align: center;
 }
 h4
 {
-	font-size: 120%;
+	font-size: 105%;
 }
 h5 
 {
@@ -64,16 +77,20 @@ h2, ul h4
 .infobox h3 {
 	margin-left: 0;
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .section-box
 {
 	border: 2px dashed #38E4AE;
 	padding-left: 10px; 
 	padding-right: 10px;
-	margin-top: 50px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 30px; 
 	margin-left: -12px;
 	margin-right: -12px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .section-box h4 
 {
@@ -81,6 +98,10 @@ h2, ul h4
 	margin-top: 10px;
 	font-size: 100%;
 }
+/*.section-box h3 
+{
+	text-align: justify;
+}*/
 .section-box p
 {
 	font-size:80%;
@@ -92,7 +113,11 @@ h2, ul h4
 a
 {
 	color: #FF5E5B;
-
+	text-decoration: none;
+}
+.alt-link
+{
+color: #38E4AE;
 }
 a:visited
 {
