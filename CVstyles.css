@@ -201,6 +201,11 @@ header h3
 .whitepipe
 {
 	color: #FCFFFE;
+
+}
+.smaller
+{
+	font-size: 100%;
 }
 	/*font-size:87.5%;
 	padding: 25px 15% 75px 15%;
