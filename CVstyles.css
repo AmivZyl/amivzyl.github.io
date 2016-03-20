@@ -1,10 +1,9 @@
-
-	/*background-color:white;*/
-	/*background-image:url("FFTA2-Logo.jpg");*/
-	/*background-repeat:no-repeat;*/
-	/*background-attachment:fixed;*/
-	/*color:black;
-	font-family:Arial,Helvetica,sans-serif;*/
+/*background-color:white;*/
+/*background-image:url("FFTA2-Logo.jpg");*/
+/*background-repeat:no-repeat;*/
+/*background-attachment:fixed;*/
+/*color:black;
+font-family:Arial,Helvetica,sans-serif;*/
 body
 {
 	margin: 0;
@@ -14,22 +13,23 @@ body
 	padding-left: 165px; 
 	padding-right: 165px;
 }
-/*@media (max-width: 600px) {
-	body{
-		padding: 0;
+/*@media (min-width: 600px) {
+	body {
+		padding-left: 165px; 
+		padding-right: 165px;
 	}
-}
+}*/
 .container 
 { 
 	margin: 0 auto 0 auto;
 	width: 600px;
 }
-@media (max-width: 600px) {
+/*@media (min-width: 600px) {
   .container {
-    margin: 0; 
-    width: 100%;
-  }*/
-}
+    margin: 0 auto 0 auto;
+		width: 600px;
+  }
+}*/
 h1
 {
 	font-weight: 700;
@@ -143,6 +143,12 @@ footer
 	padding-bottom: 20px;
 	text-align: center;
 }
+/*@media (min-width: 600px) {
+	footer {
+		margin-left: -165px;
+		margin-right: -165px;
+	}
+}*/
 footer h3
 {
 	color: #6E98CC; 
@@ -162,6 +168,12 @@ header
 	padding-bottom: 20px;
 	text-align: center;
 }
+/*@media (min-width: 600px) {
+	header {
+		margin-left: -165px;
+		margin-right: -165px;
+	}
+}*/
 header h3
 {
 	color: #6E98CC;
