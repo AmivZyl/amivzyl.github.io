@@ -95,6 +95,12 @@ footer
 	padding-bottom: 20px;
 	text-align: center;
 }
+footer h3
+{
+	color: #6E98CC; 
+	font-style: italic;
+	padding-bottom: 15px;
+}
 header
 {
 	margin-bottom: 40px;
