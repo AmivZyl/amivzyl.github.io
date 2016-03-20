@@ -1,0 +1,189 @@
+body, article, header
+{
+	/*background-color:white;*/
+	/*background-image:url("FFTA2-Logo.jpg");*/
+	/*background-repeat:no-repeat;*/
+	/*background-attachment:fixed;*/
+	/*color:black;
+	font-family:Arial,Helvetica,sans-serif;*/
+}
+
+body
+{
+	margin: 0;
+	background-color: #FCFFFE;
+	font-family: 'Lato', sans-serif;
+	color: #1C2541;
+	padding-left: 165px; 
+	padding-right: 165px;
+
+}
+h1
+{
+	font-weight: 700;
+	color: #FCFFFE; 
+}
+h2
+{
+	font-weight: 700;
+	color: #FF5E5B; 
+}
+h3, h4
+{
+	font-weight: 700;
+	color: #3A506B; 
+}
+h2, ul h4
+{
+	font-style: italic;
+}
+/*h3
+{
+	margin-left: ;*/
+/*}*/
+.infobox {
+	border: 2px dashed #3A506B;
+	padding: 10px;
+	margin-left: -12px;
+	margin-right: -12px;
+
+}
+.infobox h3 {
+	margin-left: 0;
+	text-align: center;
+}
+.section-box
+{
+	border: 2px dashed #38E4AE;
+	padding-left: 10px; 
+	padding-right: 10px;
+	margin-top: 50px; 
+	margin-left: -12px;
+	margin-right: -12px;
+	margin-bottom: 50px;
+}
+.emphasis {
+	font-weight: 700; 
+	color: #38E4AE;
+}
+a
+{
+	color: #FF5E5B;
+
+}
+a:visited
+{
+	color: #D68685;
+}
+ul {
+  list-style-image: url("https://dv1.pagos.com/dashboardreport/images/kpi/black_triangle.gif")
+}
+ul ul 
+{
+	list-style-image: initial; 
+}
+footer
+{
+	margin-top: 80px;
+	margin-left: -165px;
+	margin-right: -165px;
+	background-color: #1C2541;
+	color: #FCFFFE;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+header
+{
+	margin-bottom: 40px;
+	margin-left: -165px;
+	margin-right: -165px;
+	background-color: #1C2541;
+	color: #FCFFFE;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+header h3
+{
+	color: #6E98CC;
+}
+.portrait
+{
+	height: 100%; 
+	margin-left: -30px;
+}
+.portrait-container
+{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 3px solid #FCFFFE;
+	margin: 0 auto 0 auto;
+}
+	/*font-size:87.5%;
+	padding: 25px 15% 75px 15%;
+	margin:50px;
+}
+
+h1
+{
+	text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6, th
+{
+	color:#006699;*/
+
+/*table, th, td
+{*/
+	/*border:1px solid #006699;
+}
+
+th, td
+{
+	padding:5px;
+}
+
+td
+{
+	vertical-align:top;
+}
+
+Following part is styling for navbar
+
+ul.nav
+{
+	list-style-type:none;
+	margin:0 auto;*/
+	/*padding:0;
+	width:384px;
+}
+
+li.nav
+{
+	display:inline;
+	float:left;
+}
+
+a.nav
+{
+	background-color:#006699;
+	color:white;
+	display:block;
+	font-size:75%;
+	font-weight:bold;
+	padding:4px;*/
+	/*text-align:center;
+	text-decoration:none;
+	width:120px;
+}
+
+a.nav:hover, a.nav:active
+{
+	background-color:#003366;*/
